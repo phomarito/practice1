@@ -126,3 +126,38 @@ header p {
   border: 1px solid white;
   background-color: transparent;
 }
+
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+  margin-bottom: 500px;
+}
+
+.card_block1 {
+  padding: 40px;
+  box-shadow: 2px 2px 20px #a1a1a1;
+  width: 31%;
+}
+
+.card_block1_white {
+  background-color: white;
+}
+
+.card_block1_blue {
+  background-color: #23A6F0;
+  color: white;
+}
+
+.card_block1 h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.card_block1 p {
+  color: #737373;
+  font-size: 14px;
+}
+.card_block1_blue p {
+  color: white;
+}
