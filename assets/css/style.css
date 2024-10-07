@@ -186,3 +186,34 @@ header p {
 .card_block2 .p_grey {
   margin-top: 10px;
 }
+
+/* SECTION 3 */
+
+.block3 {
+  padding: 100px;
+}
+
+.block3 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.block3 p {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.cards_block3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card_block3 {
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid rgb(201, 201, 201);
+}
