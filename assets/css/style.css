@@ -352,3 +352,51 @@ header p {
 .card_block5_black .become {
   margin-top: 50px;
 }
+
+/* SECTION 6 */
+
+.block6 {
+  background-color: #252B42;
+  padding-top: 100px;
+  padding-bottom: 500px;
+}
+
+.block6 .container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.text h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.text p {
+  line-height: 25px;
+}
+.form .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: -350px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+  background-color: white;
+}
+
+form h3 {
+  text-align: center;
+}
+
+label {
+  color: #252B42;
+  font-weight: 600;
+  font-size: 14px;
+}
