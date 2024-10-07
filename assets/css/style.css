@@ -127,11 +127,15 @@ header p {
   background-color: transparent;
 }
 
+/* MAIN */
+
+/* SECTION 1 */
+
 .block1 {
   display: flex;
   justify-content: space-between;
   margin-top: -100px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
 }
 
 .card_block1 {
@@ -154,10 +158,31 @@ header p {
   margin-bottom: 10px;
   font-size: 24px;
 }
-.card_block1 p {
+.p_grey {
   color: #737373;
   font-size: 14px;
 }
-.card_block1_blue p {
-  color: white;
+
+/* SECTION 2 */
+
+.block2 {
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.cards_block2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_block2 {
+  text-align: center;
+}
+.card_block2 img {
+  margin-bottom: 10px;
+}
+
+.card_block2 .p_grey {
+  margin-top: 10px;
 }
