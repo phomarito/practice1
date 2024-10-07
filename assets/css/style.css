@@ -190,7 +190,8 @@ header p {
 /* SECTION 3 */
 
 .block3 {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .block3 h2 {
@@ -213,7 +214,50 @@ header p {
 
 .card_block3 {
   text-align: center;
-  padding: 30px;
+  padding: 50px;
   background-color: white;
   border: 1px solid rgb(201, 201, 201);
+}
+
+/* SECTION 4 */
+
+.block4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_block4 {
+  background: linear-gradient(to right, #004788, #D71489);
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form_block4 h3 {
+  font-size: 24px;
+  color: white;
+}
+
+.form_block4 input {
+  border-radius: 5px 0 0 5px;
+  padding: 15px 20px;
+  margin: 0;
+  margin-right: -5px;
+  border: 1px solid white;
+}
+.form_block4 button {
+  border-radius: 0 5px 5px 0;
+  padding: 15px 20px;
+  margin: 0;
+  border: 1px solid white;
+  background-color: #23A6F0;
+  color: white;
 }
