@@ -261,3 +261,94 @@ header p {
   background-color: #23A6F0;
   color: white;
 }
+
+/* SECTION 5 */
+
+.block5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.block5 h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.block5 p {
+  text-align: center;
+  padding: 10px;
+}
+
+.cards_block5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 40px;
+}
+
+.card_block5 {
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  width: 34%;
+  height: 60vh;
+}
+
+.card_block5 h5 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: left;
+}
+.ticks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price {
+  color: #23A6F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.price h1 {
+  font-size: 40px;
+}
+
+.dollars {
+  text-align: left;
+}
+
+.card_block5 .become {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.card_block5_black {
+  background-color: #252B42;
+  color: white;
+  height: 70vh;
+}
+
+.card_block5_white {
+  margin-top: 10vh;
+}
+
+.card_block5_black h3 {
+  margin-top: 30px;
+}
+
+.card_block5_black .become {
+  margin-top: 50px;
+}
